@@ -1,0 +1,33 @@
+Modern Application Development Workshop
+=======================================
+
+==== Modern Application Development Workshop
+
+Companies are increasingly building products that are the technology itself or heavily influenced by technology. In order to be more competitive, companies must create better products, and to do that, they must increase agility and innovate faster.
+
+Modern application development is an approach to designing, building, and managing applications. This approach increases the agility of your teams and the reliability, security, and scalability of your applications. Through modern application development, you can build better products faster so you can have happier customers.
+
+===== Best Practices
+The best practices of modern application development arose from our experience serving millions of customers and building applications for Amazon.com. We observed common approaches that enable our customers to increase agility, and build better applications that support the success of their businesses. While you can approach these practices from any starting point and in any order, the outcome is the same: applications that are more secure, reliable, scalable, and quickly available for customers.
+|==========================================
+|SERVERLESS TECHNOLOGIES|MICROSERVICES|CI/CD
+|Simplify infrastructure management with serverless technologies. Reducing time spent on routine environment management frees time to focus on business logic. Serverless technologies let you build applications without thinking about the underlying infrastructure.|Componentize applications using microservices. When applications are built with modular, independent components, called microservices, release velocity can increase because changes to any component are easier to make. Microservices make applications easier to scale and faster to develop, enabling innovation and accelerating time-to-market.|Update applications and infrastructure quickly by automating continuous integration and continuous delivery (CI/CD). Using CI/CD, you build, test, and deploy each code change with an automated process. Automated CI/CD practices help you release better features faster.
+|==========================================
+
+|==========================================
+|INFRASTRUCTURE AS CODE|OBSERVABILITY|SECURITY & COMPLIANCE
+|Standardize operations by modeling all applications and infrastructure as code (IaC). IaC allows you to model your application and all the supporting infrastructure resources as code. This code serves as the single source of truth for all your infrastructure, and updates to your infrastructure are made directly in code. This eliminates the need for manual updates to infrastructure which can be error-prone.|Improve application performance by increasing observability. Collecting, aggregating, and correlating metrics, logs, and traces builds insights into application and customer behavior. We call this observability. Observability allows you to rapidly detect and respond to issues and opportunities to improve application performance.|Secure the entire application lifecycle by automating security. Building authentication, authorization, and compliance auditing directly into every component of your application, and securing your infrastructure from intrusions protects your users and your business. Automating the evaluation of security configuration and implementation throughout the development process and in production reduces the time it takes to secure your application.
+|==========================================
+
+===== About this workshop
+Created by the Partner Solutions Architect team, this workshop is the culmination of experience gained working with customers who are adopting modern application development approaches.
+
+In this workshop you will learn how to:
+
+* Containerize an existing monolithic application.
+* Store and secure third party libraries for use in your software
+* Deploy your container image to a highly scalable repository
+* Deploy your container to a scalable, highly available orchestration engine (ECS)
+* Use stateful sets to deploy the application to Kubernetes (EKS)
+* Monitor and audit the deployed application
+* Automate all of the above processes
